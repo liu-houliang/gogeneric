@@ -5,7 +5,7 @@ go version >= 1.18
 
 ## How to use 
 ```
-go get -u github.com/lhl1115/gogeneric
+go get -u github.com/liu-houliang/gogeneric
 
 max:= gogeneric.Max(3,4)
 ```
@@ -36,7 +36,7 @@ func GetFieldArray[Field any, T any](fieldName string, slice []T) []Field
 
 ## How to test 
 ```
-git clone https://github.com/lhl1115/gogeneric.git
+git clone https://github.com/liu-houliang/gogeneric.git
 cd gogeneric/test
 go test -v 
 ```
@@ -45,4 +45,4 @@ go test -v
 some functions use reflect code , these functions should be tested before using in production environment.
 
 ## Project Manager
-[@lhl1115](https://github.com/lhl1115)
+[@liu-houliang](https://github.com/liu-houliang)

@@ -8,7 +8,7 @@ go 版本 >= 1.18
 
 ## 如何使用
 ```
-go get -u github.com/lhl1115/gogeneric
+go get -u github.com/liu-houliang/gogeneric
 
 max:= gogeneric.Max(3,4)
 ```
@@ -49,7 +49,7 @@ func HttpPostJson[T any](apiURL string, request any, headers map[string]string) 
 
 ## 测试方法
 ```
-git clone https://github.com/lhl1115/gogeneric.git
+git clone https://github.com/liu-houliang/gogeneric.git
 cd gogeneric/test
 go test -v 
 ```
@@ -59,4 +59,4 @@ go test -v
 
 
 ## 项目负责人
-[@lhl1115](https://github.com/lhl1115)
+[@liu-houliang](https://github.com/liu-houliang)

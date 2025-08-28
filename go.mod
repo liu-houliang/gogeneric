@@ -1,3 +1,3 @@
-module github.com/lhl1115/gogeneric
+module github.com/liu-houliang/gogeneric
 
 go 1.18

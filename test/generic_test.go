@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/lhl1115/gogeneric"
+	"github.com/liu-houliang/gogeneric"
 	"testing"
 )
 
