@@ -3,7 +3,7 @@
 简体中文 | [English](README-EN.md)
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/liu-houliang/gogeneric/v2.svg)](https://pkg.go.dev/github.com/liu-houliang/gogeneric/v2)
-[![CI](https://github.com/liu-houliang/gogeneric/v2/actions/workflows/ci.yml/badge.svg)](https://github.com/liu-houliang/gogeneric/v2/actions/workflows/ci.yml)
+[![CI](https://github.com/liu-houliang/gogeneric/actions/workflows/ci.yml/badge.svg)](https://github.com/liu-houliang/gogeneric/actions/workflows/ci.yml)
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.21-blue)](https://go.dev/)
 
 Go 泛型工具库——提供标准库（`slices`/`maps`）刻意不包含的函数式编程原语，以及常见的业务层工具类型。
@@ -155,7 +155,7 @@ res, err := gogeneric.HttpPostMultipart[UploadResp](ctx, url, files, map[string]
 ## 运行测试
 
 ```bash
-git clone https://github.com/liu-houliang/gogeneric/v2.git
+git clone https://github.com/liu-houliang/gogeneric.git
 cd gogeneric
 
 go test -v .                    # 全部测试（详细输出）

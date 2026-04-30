@@ -3,7 +3,7 @@
 [简体中文](README.md) | English
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/liu-houliang/gogeneric/v2.svg)](https://pkg.go.dev/github.com/liu-houliang/gogeneric/v2)
-[![CI](https://github.com/liu-houliang/gogeneric/v2/actions/workflows/ci.yml/badge.svg)](https://github.com/liu-houliang/gogeneric/v2/actions/workflows/ci.yml)
+[![CI](https://github.com/liu-houliang/gogeneric/actions/workflows/ci.yml/badge.svg)](https://github.com/liu-houliang/gogeneric/actions/workflows/ci.yml)
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.21-blue)](https://go.dev/)
 
 A Go generics utility library that provides functional programming primitives and business-layer helpers that the standard library (`slices`/`maps`) intentionally omits.
@@ -156,7 +156,7 @@ Migration is recommended:
 ## Running Tests
 
 ```bash
-git clone https://github.com/liu-houliang/gogeneric/v2.git
+git clone https://github.com/liu-houliang/gogeneric.git
 cd gogeneric
 
 go test -v .                      # all tests with verbose output
