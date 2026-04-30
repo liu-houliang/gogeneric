@@ -1,3 +1,3 @@
-module github.com/liu-houliang/gogeneric
+module github.com/liu-houliang/gogeneric/v2
 
-go 1.18
+go 1.21
